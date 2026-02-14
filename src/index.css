@@ -48,4 +48,24 @@ main {
 
 footer {
   background-image: url(./img/footer-bg.jpg);
+  color: white;
+}
+
+.footer-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-col {
+  flex-basis: calc(100% / 4);
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0 1rem;
+}
+
+.footerLinks {
+  text-decoration: none;
+  list-style-type: none;
 }

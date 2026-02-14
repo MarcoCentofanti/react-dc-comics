@@ -47,6 +47,9 @@ const footerLink = [
   },
 ];
 
+// manca inserire l'immagine a destra nel footer
+// src/img/dc-logo-bg.png
+
 export default function Footer() {
   return (
     <footer>

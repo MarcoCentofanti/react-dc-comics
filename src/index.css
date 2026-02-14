@@ -54,15 +54,15 @@ footer {
 .footer-layout {
   display: flex;
   flex-direction: row;
+  flex-basis: calc(100% / 4);
 }
 
 .footer-col {
-  flex-basis: calc(100% / 4);
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
   justify-content: start;
-  padding: 0 1rem;
+  margin-right: 3rem;
 }
 
 .footerLinks {

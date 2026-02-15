@@ -1,3 +1,5 @@
+import backgroundLogo from "/Users/marcocentofanti/Desktop/CODE/BOOLEAN/Project/react-dc-comics/src/img/dc-logo-bg.png";
+
 const footerLink = [
   {
     title: "DC COMICS",
@@ -72,6 +74,9 @@ export default function Footer() {
             </div>
           );
         })}
+      </div>
+      <div class="crop">
+        <img src={backgroundLogo} alt="" />
       </div>
     </footer>
   );

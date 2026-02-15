@@ -50,10 +50,11 @@ main {
   background-image: url(./img/footer-bg.jpg);
   color: white;
   display: flex;
-  padding-top: 2rem;
 }
 
 .footer-layout {
+  padding-top: 2rem;
+
   display: flex;
   flex-direction: row;
   flex-basis: calc(100% / 4);

@@ -54,7 +54,7 @@ const footerLink = [
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer-top">
       <div className="container footer-layout">
         {footerLink.map((element, index) => {
           return (

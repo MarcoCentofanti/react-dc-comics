@@ -46,7 +46,7 @@ main {
 
 /* FOOTER */
 
-footer {
+.footer-top {
   background-image: url(./img/footer-bg.jpg);
   color: white;
   display: flex;
@@ -85,4 +85,23 @@ footer img {
 /* input values to crop the image: top, right, bottom, left */
 .crop img {
   margin: -100px 0px -100px 0px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: white;
+  border: 1px solid #0582f9;
+  background-color: #303030;
+  display: inline-block;
+}
+
+.test {
+  display: inline-block;
 }

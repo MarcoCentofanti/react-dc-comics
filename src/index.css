@@ -50,6 +50,7 @@ main {
   background-image: url(./img/footer-bg.jpg);
   color: white;
   display: flex;
+  padding-top: 2rem;
 }
 
 .footer-layout {
@@ -90,9 +91,12 @@ footer img {
 .footer-bottom {
   background-color: #303030;
   display: flex;
-  justify-content: space-between;
 }
-
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 footer button {
   font-size: 1.5rem;
   padding: 1rem;
@@ -104,4 +108,8 @@ footer button {
 
 .test {
   display: inline-block;
+}
+
+.margin-right {
+  margin-right: 1rem;
 }

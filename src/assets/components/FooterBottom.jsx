@@ -6,18 +6,21 @@ import periscopeLogo from "/Users/marcocentofanti/Desktop/CODE/BOOLEAN/Project/r
 
 export default function () {
   return (
-    <footer className="footer-bottom">
-      <div className="container py-5">
+    <footer className="footer-bottom ">
+      <div className="container  py-5 space-between">
         <button>SIGN-UP NOW!</button>
         <div className="test">
-          <a href="#">FOLLOW US</a>
-          <img src={facebookLogo} alt="" />
-          <img src={twitterLogo} alt="" />
-          <img src={youtubeLogo} alt="" />
-          <img src={pinterestLogo} alt="" />
-          <img src={periscopeLogo} alt="" />
+          <a href="#" className="margin-right">
+            FOLLOW US
+          </a>
+          <img src={facebookLogo} alt="" className="margin-right" />
+          <img src={twitterLogo} alt="" className="margin-right" />
+          <img src={youtubeLogo} alt="" className="margin-right" />
+          <img src={pinterestLogo} alt="" className="margin-right" />
+          <img src={periscopeLogo} alt="" className="margin-right" />
         </div>
       </div>
     </footer>
   );
 }
+3;

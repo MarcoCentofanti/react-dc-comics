@@ -1,4 +1,5 @@
 import styles from "./Main.module.css";
+import Productlist from "./Products/Productlist";
 
 const comics = [
   {
@@ -182,15 +183,7 @@ export default function Main() {
     <>
       <main className={styles.mainContainer}>
         <div className={styles.elementContainer}>
-          {comics.map((element) => {
-            return (
-              <div
-                key={element.id}
-                className={styles.boxFumetti}
-                style={{ backgroundImage: `url(${element.thumb})` }}
-              ></div>
-            );
-          })}
+          <Productlist products={comics} />
         </div>
         <button className={styles.button}>LOAD MORE</button>
       </main>

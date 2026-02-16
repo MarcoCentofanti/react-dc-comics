@@ -1,0 +1,34 @@
+.mainSection {
+  height: 100px;
+  background-color: #0582f9;
+}
+
+.mainSection img {
+  width: 40px;
+}
+
+.mainSection span {
+  min-height: 120px;
+  display: fle;
+  font-size: 0.5rem;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.toolbarelements {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbarImg {
+  margin-right: 20px;
+  width: 50px;
+}

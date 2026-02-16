@@ -1,3 +1,5 @@
+import styles from "./Toolbar.module.css";
+
 import digitalComics from "../../img/buy-comics-digital-comics.png";
 import dcMerchandise from "../../img/buy-comics-merchandise.png";
 import shopLocator from "../../img/buy-comics-shop-locator.png";
@@ -14,13 +16,13 @@ const toolbarElement = [
 
 export default function Toolbar() {
   return (
-    <section id="banner" className="bg-primary">
-      <div className="container">
-        <div className="d-flex justify-content-around align-items-center pt-4">
+    <section className={styles.mainSection}>
+      <div className={styles.container}>
+        <div className={styles.toolbarelements}>
           {toolbarElement.map((element, index) => {
             return (
               <div key={index}>
-                <img className="me-3 toolbar-img" src={element.image} alt="" />
+                <img className={styles.toolbarImg} src={element.image} alt="" />
                 <span>{element.name}</span>
               </div>
             );

@@ -8,7 +8,10 @@ body {
 }
 /* NAVBAR */
 nav {
+  width: 80%;
+  margin: 0 auto;
   background-color: white;
+  font-size: 0.7rem;
 }
 
 nav a {
@@ -20,6 +23,10 @@ nav a.active {
   color: #0e6efd;
 }
 
+nav img {
+  width: 50px;
+}
+
 /* MAIN */
 
 main {
@@ -27,22 +34,6 @@ main {
 }
 
 /* TOOLBAR */
-#banner {
-  height: 150px;
-}
-
-#banner img {
-  width: 50px;
-}
-
-#banner span {
-  font-size: small;
-  color: white;
-}
-
-.toolbar-img {
-  width: 50px;
-}
 
 /* FOOTER */
 

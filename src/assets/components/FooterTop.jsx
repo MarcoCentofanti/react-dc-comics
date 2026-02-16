@@ -75,7 +75,7 @@ export default function Footer() {
           );
         })}
       </div>
-      <div class="crop">
+      <div className="crop">
         <img src={backgroundLogo} alt="" />
       </div>
     </footer>

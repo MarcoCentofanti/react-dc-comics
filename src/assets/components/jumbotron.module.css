@@ -1,0 +1,10 @@
+.hero {
+  width: auto;
+  height: 300px;
+
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  /* opzionale */
+}

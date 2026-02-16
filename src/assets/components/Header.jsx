@@ -11,7 +11,7 @@ const linkList = [
 
 export default function Header() {
   return (
-    <nav className="bg-light mb-3">
+    <nav className="bg-light pb-3">
       <section
         id="navbar"
         className="container d-flex  pt-4 align-items-center justify-content-between"
